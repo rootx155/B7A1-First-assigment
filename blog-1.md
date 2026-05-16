@@ -1,6 +1,5 @@
 # Why is any labeled a "type safety hole," and why is unknown the safer choice for handling unpredictable data? Explain the concept of type narrowing.
 
-
 TypeScript এর সবচেয়ে বড় সুবিধা হলো **Type Safety**। অর্থাৎ, কোড লেখার সময়ই TypeScript আমাদের ভুল ধরতে সাহায্য করে।  
 কিন্তু `any` ব্যবহার করলে এই সুবিধা অনেকটাই নষ্ট হয়ে যায়। এজন্য `any` কে বলা হয় **"Type Safety Hole"**।
 

@@ -31,17 +31,15 @@ interface Book {
   publishedYear: number;
 }
 
-const toggleReadStatus = (book: Book) => {
+interface BookWithReadStatus extends Book {
+  isRead: boolean;
+}
+
+const toggleReadStatus = (book: Book): BookWithReadStatus => {
   return {
     ...book,
     isRead: true,
   };
-};
-
-const myBook = {
-  title: "TypeScript Guide",
-  author: "Jane Doe",
-  publishedYear: 2024,
 };
 
 // Problem 6

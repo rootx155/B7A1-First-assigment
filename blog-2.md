@@ -33,8 +33,9 @@ Error আসবে।
 
 এতে code duplication হয়।
 
-```ts
 Generics Solution
+
+```ts
 const returnValue = <T>(value: T): T => {
   return value;
 };
